@@ -10,15 +10,15 @@
     lcd.init();
     lcd.backlight();
 
-                        lcd.setCursor(0,0);
-                        lcd.print("Hi");
-                        delay(2000);
-                        
+                lcd.setCursor(0,0);
+                lcd.print("Hi");
+                delay(2000);
+                
 
-                        lcd.setCursor(3,0);
-                        lcd.print("Alice!");
-                        delay(2200);
-                        lcd.clear();
+                lcd.setCursor(3,0);
+                lcd.print("Alice!");
+                delay(2200);
+                lcd.clear();
 
 
 
